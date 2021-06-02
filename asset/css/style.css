@@ -1,0 +1,944 @@
+@font-face{
+    src: url(../fonts/Noto_Sans_JP/NotoSansJP-Regular.otf);
+    font-family: 'NotosansRegular';
+}
+@font-face{
+    src: url(../fonts/Noto_Sans_JP/NotoSansJP-Bold.otf);
+    font-family:"Notosansbold";
+}
+@font-face{
+    src: url(../fonts/Noto_Sans_JP/NotoSansJP-Medium.otf);
+    font-family:"NotosansMedium" ;
+}
+@font-face{
+    src: url(../fonts/Noto_Sans_JP/NotoSansJP-Thin.otf);
+    font-family:"NotosansThin" ;
+}
+@font-face{
+    src: url(../fonts/Noto_Sans_JP/NotoSansJP-Light.otf);
+    font-family:"NotosansLight" ;
+}
+@font-face{
+    src: url(../fonts/Noto_Sans_JP/NotoSansJP-Black.otf);
+    font-family:"NotosansBlack" ;
+}   
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: NotosansRegular;
+}
+.line{
+    border-bottom: solid rgb(213, 235, 255)  2px;
+}
+.bg-header{
+      background-color: rgb(8, 115, 185);
+      color: white;
+}
+.bg-nav{
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bg-nav a{
+    font-family:Notosansbold ;
+    text-decoration: none;
+    color:rgb(215, 237, 255);
+}
+.bg-nav .nav-link:hover{
+    transition: 1s;
+    border-bottom: 2px solid ;
+    color:rgb(215, 237, 255);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+}
+.nav-link{
+    border-bottom: solid 2px transparent;
+    padding: 10px;
+}
+.ser{
+    border: solid rgb(0, 0, 0) 2px;
+    background-color:rgb(245, 245, 245);
+    border-radius: 10px;
+    height: 35px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.btn{
+    height: 32px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.logo{
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 5%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.name{
+    font-family: Notosansthin;
+    font-size: 20px;
+    align-self: center;
+    width: 20%;
+    height: 30px;
+}
+.name-containe{
+    display: flex;
+}
+.down{
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("/asset/img/carry.jpg");
+    width: 100%;
+    height: 500px;
+    background-color: rgba(6, 53, 141, 0.637);
+}
+.do{
+    margin-left: 90px;
+    padding: 30px;
+    width: 30%;
+    height: 240px;
+}
+.do-left{
+    width: 50%;
+    margin-right: 140px;
+    margin-top:-190px ;
+    float: right;
+    height: 80px;
+}
+.cele{
+    margin-top: 80px;
+    font-size: 28px;
+    color:rgb(215, 237, 255);
+    font-family:NotosansRegular ;
+}
+.celes{
+    font-size: 30px;
+    color:rgb(215, 237, 255);
+    font-family: NotosansRegular;
+}
+.body-container{
+    width: 100%;
+    height: 600px;
+    overflow: scroll;
+}
+.work{
+    text-align: center;
+}
+.work-container{
+    justify-content: space-around;
+    display: flex;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("/asset/img/pop-art-nails-1614785536.jpg");
+    width: 70%;
+    margin: auto;
+    height: 650px;
+    background-color: rgba(143, 143, 143, 0.719);
+}
+.email{
+    align-self: center;
+    width: 50%;
+    height: 425px;
+    background-color:inherit;
+}
+.number{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-self: center;
+    width: 30%;
+    height: 200px;
+    background-color: inherit;
+}
+.information{
+    color: white;
+    font-size:22px;
+    text-align: center;
+    font-family:NotosansThin ;
+}
+.put{
+    border-radius: 5px;
+    background-color: white;
+    width: 70%;
+    height: 30px;
+    margin-left: 65px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.puts{
+    border-radius: 5px;
+    background-color: white;
+    width: 70%;
+    height: 60px;
+    margin-left: 65px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn-div{
+    margin: auto    ;
+    width: 40%;
+    height: 35px;
+}
+.btn-form{
+    border: solid white 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    background-color: red;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.sub{
+    font-size:20px;
+    margin-top: 3px;
+    color: white;
+    text-align: center;
+}
+.done{
+    display: flex;
+    height: 500px;
+    width: 70%;
+    background-color: rgb(233, 233, 233);
+    margin: auto;
+}
+.dones{
+    height: 500px;
+    width: 100%;
+    margin: auto;
+}
+.img-div{
+    width: 40%;
+    height: inherit;
+    background-color: white;
+}
+.done-right{
+    width: 58%;
+    height: inherit;
+}
+.lane{
+    width: 50%;
+}
+.one-container{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+}
+.people-container{
+    border-radius: 10px;
+    height:200px;
+    position: relative;
+    width: 14%;
+    border: rgb(158, 158, 158) solid 3px;
+
+}
+.overlays{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.people-container:hover .overlays {
+    width: 100%;
+  }
+  .texts{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  .hand{
+      width: 100%;
+      height: inherit;
+  }
+  .over-btn{
+      border: white solid 2px;
+      border-radius: 8px;
+      background-color: rgb(0, 0, 0);
+      height: 40px;
+      width: 100%;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+}
+.over-btn:hover{
+    background-color: white;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.over-text{
+    margin-top: 8px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.over-text:hover{
+    transition: 1s;
+    color: rgb(0, 0, 0);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.about-contsiner{
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+width: 70%;
+height: 300px;
+background-color: rgb(211, 211, 211);
+}
+.about-one{
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    margin-left: 10px;
+}
+.ABOUT-IMG{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    margin-left: 10px;
+}
+.about-ok{
+    align-self: center;
+    float: right;
+    width: 65%;
+    background-color:inherit;
+}
+.order-btn{
+width: 10%;
+height: 40px;
+margin: auto
+}
+.order-div{
+    border:  rgb(0, 0, 0) solid 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.more{
+    margin-top: 2px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.order-div:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.more:hover{
+    transition: 1s;
+    color: white;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.footer-container{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+.fot{
+    display: flex;
+width: 40% ;
+height: 100px;
+}
+.copy{
+    color: rgb(214, 214, 214);
+    align-self: center;
+    text-align: center;
+}
+.fot-riht{
+    justify-content: space-around;
+    display: flex;
+    margin-left: 255px;
+    float: right;
+   width: 40%;
+   height: 100%
+}
+
+.fot-text{
+    align-self: center;
+    color: white;
+}
+.fot-text:hover{
+    transition: 1s;
+    color: rgb(255, 60, 0);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.abou-head{
+    display: flex;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 127, 231, 0.76);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    background-image: url("/asset/img/carry.jpg");
+}
+.out{
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-family: NotosansThin;
+}
+.aba{
+    width: 100%;
+    align-self: center;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.trend{
+    font-family:NotosansLight ;
+}
+.ombre{
+    font-family:NotosansThin ;
+}
+.imsta:hover{
+    transition: 1s;
+    color: rgb(121, 121, 121);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+@media(max-width:320px){
+    .down{
+        height: 300px;
+    }
+    .nav-links{
+         font-size: 8px;
+         width: 70%;
+         margin-left: -30px;
+         gap:5px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .name-containe{
+        height: 70px;
+    }
+    .name{
+        font-family: NotosansThin;
+        color: rgb(66, 66, 66);
+        margin-left: -22px;
+        width: 70%;
+      text-align: center;
+}
+    .nav-saerch{
+        margin-left: 20px;
+        width: 62%;
+    }
+    .ser{
+        width: 70%;
+    }
+    .do{
+        text-align: center;
+        margin-top: -100px;
+        padding: 0px;
+        margin-left: 0px;
+        height: 130px;
+        width:100%;
+    }
+    .cele{
+          color: white;
+          font-size: 18px;
+          
+       }
+       .do-left{
+           margin-right: 70px;
+           margin-top: -10px;
+           height:30px;
+           width:50%;
+       }
+       .work{
+           font-size: 14px;
+       }
+       .work-container{
+           display: block;
+       }
+       .number{
+           width: 80%;
+           margin: auto;
+       }
+       .email{
+           height: 380px;
+        width: 90%;
+        margin: auto;
+       }
+       .information{
+           font-size: 15px;
+       }
+       .put{
+           margin-left: 24px;
+       }
+       .puts{
+        margin-left: 24px;
+       }
+
+       .ombre{
+           font-size: 16px;
+       }
+
+       .one-container{
+           display: block;
+           overflow: scroll;
+       }
+       .about-ok{
+           font-size: 8px;
+           margin-top: 20px;
+           height: 100px;
+           display: block;
+       }
+       .people-container{
+           margin-top: 10px;
+           height: 380px;
+           width: 80%;
+           margin: auto;
+       }
+       .about-one{
+           width:90%;
+           height: 100px;
+       }
+       .ABOUT-IMG{
+           height: 100px;
+           width: 100%;
+       }
+       .trend{
+        height: 100px;
+       }
+       .order-btn{
+           width: 30%;
+       }
+.footer-container{
+    display: block;
+}
+.fot{
+    font-family:NotosansLight ;
+    font-size: 15px;
+    width: 100%;
+}
+.fot-riht{
+    font-size: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    font-family:NotosansLight ;
+}
+}
+
+
+@media(max-width:375px){
+    .do-left{
+        margin-right: 70px;
+        margin-top: -10px;
+        height:30px;
+        width:50%;
+    }
+
+    .do{
+        text-align: center;
+        margin-top: -100px;
+        padding: 0px;
+        margin-left: 0px;
+        height: 130px;
+        width:100%;
+    }
+    .nav-links{
+         font-size: 8px;
+         width: 70%;
+         margin-left: -30px;
+         gap:5px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .name-containe{
+        height: 70px;
+    }
+    .name{
+        font-family: NotosansThin;
+        color: rgb(66, 66, 66);
+        margin-left: -22px;
+        width: 70%;
+      text-align: center;
+}
+    .nav-saerch{
+        margin-left: 20px;
+        width: 62%;
+    }
+    .ser{
+        width: 70%;
+    }
+    .cele{
+          color: white;
+          font-size: 20px;
+          
+       }
+       .work{
+           font-size: 14px;
+       }
+       .work-container{
+           display: block;
+       }
+       .number{
+           width: 80%;
+           margin: auto;
+       }
+       .email{
+           height: 380px;
+        width: 90%;
+        margin: auto;
+       }
+       .information{
+           font-size: 15px;
+       }
+       .put{
+           margin-left: 24px;
+       }
+       .puts{
+        margin-left: 24px;
+       }
+
+       .ombre{
+           font-size: 16px;
+       }
+
+       .one-container{
+           display: block;
+           overflow: scroll;
+       }
+       .about-ok{
+           font-size: 8px;
+           margin-top: 20px;
+           height: 100px;
+           display: block;
+       }
+       .people-container{
+           margin-top: 10px;
+           height: 380px;
+           width: 80%;
+           margin: auto;
+       }
+       .about-one{
+           width:90%;
+           height: 100px;
+       }
+       .ABOUT-IMG{
+           height: 100px;
+           width: 100%;
+       }
+       .trend{
+        height: 100px;
+       }
+       .order-btn{
+           width: 30%;
+       }
+.footer-container{
+    display: block;
+}
+.fot{
+    font-family:NotosansLight ;
+    font-size: 15px;
+    width: 100%;
+}
+.fot-riht{
+    font-size: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    font-family:NotosansLight ;
+}
+}
+
+@media(max-width:425px){
+    .do-left{
+        margin-right: 70px;
+        margin-top: -10px;
+        height:30px;
+        width:50%;
+    }
+
+    .do{
+        text-align: center;
+        margin-top: -100px;
+        padding: 0px;
+        margin-left: 0px;
+        height: 130px;
+        width:100%;
+    }
+    .nav-links{
+         font-size: 8px;
+         width: 70%;
+         margin-left: -30px;
+         gap:5px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .name-containe{
+        height: 70px;
+    }
+    .name{
+        font-family: NotosansThin;
+        color: rgb(66, 66, 66);
+        margin-left: -22px;
+        width: 70%;
+      text-align: center;
+}
+    .nav-saerch{
+        margin-left: 20px;
+        width: 62%;
+    }
+    .ser{
+        width: 70%;
+    }
+    .cele{
+          color: white;
+          font-size: 18px;
+       }
+       .work{
+           font-size: 14px;
+       }
+       .work-container{
+           display: block;
+       }
+       .number{
+           width: 80%;
+           margin: auto;
+       }
+       .email{
+           height: 380px;
+        width: 90%;
+        margin: auto;
+       }
+       .information{
+           font-size: 15px;
+       }
+       .put{
+           margin-left: 24px;
+       }
+       .puts{
+        margin-left: 24px;
+       }
+
+       .ombre{
+           font-size: 16px;
+       }
+
+       .one-container{
+           display: block;
+           overflow: scroll;
+       }
+       .about-ok{
+           font-size: 8px;
+           margin-top: 20px;
+           height: 100px;
+           display: block;
+       }
+       .people-container{
+           margin-top: 10px;
+           height: 380px;
+           width: 80%;
+           margin: auto;
+       }
+       .about-one{
+           width:90%;
+           height: 100px;
+       }
+       .ABOUT-IMG{
+           height: 100px;
+           width: 100%;
+       }
+       .trend{
+        height: 100px;
+       }
+       .order-btn{
+           width: 30%;
+       }
+.footer-container{
+    display: block;
+}
+.fot{
+    font-family:NotosansLight ;
+    font-size: 15px;
+    width: 100%;
+}
+.fot-riht{
+    font-size: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    font-family:NotosansLight ;
+}
+}
+
+@media(max-width:768px){
+    .nav-links{
+         font-size: 8px;
+         width: 70%;
+         margin-left: -30px;
+         gap:5px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .name-containe{
+        height: 70px;
+    }
+    .name{
+        font-family: NotosansThin;
+        color: rgb(66, 66, 66);
+        margin-left: -22px;
+        width: 70%;
+      text-align: center;
+}
+    .nav-saerch{
+        margin-left: 20px;
+        width: 62%;
+    }
+    .ser{
+        width: 70%;
+    }
+    .cele{
+          color: white;
+          font-size: 18px;
+       }
+       .work{
+           font-size: 14px;
+       }
+       .work-container{
+           display: block;
+       }
+       .number{
+           width: 80%;
+           margin: auto;
+       }
+       .email{
+           height: 380px;
+        width: 90%;
+        margin: auto;
+       }
+       .information{
+           font-size: 15px;
+       }
+       .put{
+           margin-left: 24px;
+       }
+       .puts{
+        margin-left: 24px;
+       }
+
+       .ombre{
+           font-size: 16px;
+       }
+
+       .one-container{
+           display: block;
+           overflow: scroll;
+       }
+       .about-ok{
+           font-size: 8px;
+           margin-top: 20px;
+           height: 100px;
+           display: block;
+       }
+       .people-container{
+           margin-top: 10px;
+           height: 380px;
+           width: 80%;
+           margin: auto;
+       }
+       .about-one{
+           width:90%;
+           height: 100px;
+       }
+       .ABOUT-IMG{
+           height: 100px;
+           width: 100%;
+       }
+       .trend{
+        height: 100px;
+       }
+       .order-btn{
+           width: 30%;
+       }
+.footer-container{
+    display: block;
+}
+.fot{
+    font-family:NotosansLight ;
+    font-size: 15px;
+    width: 100%;
+}
+.fot-riht{
+    font-size: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    font-family:NotosansLight ;
+}
+}
